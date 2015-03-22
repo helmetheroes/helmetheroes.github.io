@@ -36,6 +36,15 @@
 <link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
 <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 
+    <script>
+        $(document).ready(function() {
+            $('.fancybox').fancybox({
+                padding : 0,
+                openEffect  : 'elastic'
+            });
+        });
+    </script>
+
 </head>
 
 
@@ -67,7 +76,8 @@
 
 <center><embed src="http://helmet-heroes.com/HH-cLoader.swf" quality="high" wmode="direct" type="application/x-shockwave-flash" width="850" height="650" allowfullscreen="true" allowfullscreeninteractive="true" allowscriptaccess="always">
 <br>
-<a href="#" onclick="toggle_visibility('hide');"><img src="images/tc.png" alt="[Toggle Chat]"></a>		<li><a class="fancybox fancybox.iframe" href="chatrules.html">Iframe</a></li>
+<a href="#" onclick="toggle_visibility('hide');"><img src="images/tc.png" alt="[Toggle Chat]"></a>		
+<li><a class="fancybox fancybox.iframe" href="chatrules.html">Iframe</a></li>
 </center>
  </td>
  
