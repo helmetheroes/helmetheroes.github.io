@@ -39,7 +39,7 @@ z-index: 10;
 margin-top: 40px;
 width:260px; 
 height:310px; 
-color:#000; 
+color:#fff; 
 box-shadow:0 0 2px #000;
  z-index:9999;
  border:solid #424242 4px;
@@ -55,7 +55,7 @@ top:0; left:0;
  z-index:1;
  }
 
-#bg{background-image:url(images/thebg.png);background-size:100% auto;}
+#bg{background-image:url(images/colorbgs/black.png);background-size:100% auto;}
 
 
 
