@@ -807,34 +807,34 @@
 		width: 100%;
 		background: #fff;
 		background: rgba(255,255,255,0.95);
-		height: 3em;
-		line-height: 3em;
+		height: 2em;
+		line-height: 2em;
 		box-shadow: 0 0 0.15em 0 rgba(0,0,0,0.1);
 	}
 
 	body {
-		padding-top: 3em;
+		padding-top: 1em;
 	}
 
 	#logo {
 		position: absolute;
 		left: 1em;
 		top: 0;
-		height: 3em;
-		line-height: 3em;
+		height: 1em;
+		line-height: 2em;
 		letter-spacing: -1px;
 	}
 
 		#logo a {
-			font-size: 1.25em;
+			font-size: 1em;
 		}
 
 	#nav {
 		position: absolute;
 		right: 0.5em;
 		top: 0;
-		height: 3em;
-		line-height: 3em;
+		height: 2em;
+		line-height: 2em;
 	}
 
 		#nav ul {
@@ -844,15 +844,15 @@
 			#nav ul li {
 				display: inline-block;
 				margin-left: 0.5em;
-				font-size: 0.9em;
+				font-size: 0.6em;
 			}
 
 				#nav ul li a {
 					display: block;
 					color: inherit;
 					text-decoration: none;
-					height: 3em;
-					line-height: 3em;
+					height: 2em;
+					line-height: 2em;
 					padding: 0 0.5em 0 0.5em;
 					outline: 0;
 				}
