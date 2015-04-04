@@ -939,7 +939,7 @@
 		background-size: auto,								auto 100%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
-		left: 0;
+		right: 0;
 		position: fixed;
 		text-align: right;
 		top: 0;
@@ -1014,7 +1014,7 @@
 /* Main */
 
 	#main {
-		margin-left: 22%;
+		margin-left: 0%;
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
