@@ -110,9 +110,9 @@ img {
 .colmid,
 .colleft {
 	float:left;
-	width:100%;
+	width:600%;
 	position:relative;
-	height:100%;
+	height:850%;
 }
 .col1,
 .col2,
