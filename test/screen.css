@@ -103,6 +103,7 @@ img {
 	float:left;
 	width:100%;			/* width of whole page */
 	overflow:hidden;		/* This chops off any overhanging divs */
+	height:500px;
 }
 /* common column settings */
 .colright,
@@ -111,6 +112,7 @@ img {
 	float:left;
 	width:100%;
 	position:relative;
+	height: 500px;
 }
 .col1,
 .col2,
