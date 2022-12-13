@@ -5,12 +5,13 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <center>
   <h1>QR Code Generator</h1>
   <br>
   <br>
   <input type="text" id="text-input" placeholder="Enter text to generate QR code">
   <button onclick="generateQRCode()">Generate QR Code</button>
-  <center><br><br><div id="qr-code"></div></ceneter>
+  <br><br><div id="qr-code"></div>
   <script>
     function generateQRCode() {
       var textInput = document.getElementById("text-input").value;
@@ -25,5 +26,6 @@
       });
     }
   </script>
+  </center>
 </body>
 </html>
